@@ -1,0 +1,4 @@
+SET client_min_messages = warning;
+
+DROP TABLE test_mgid1;
+DROP EXTENSION pg_id CASCADE;

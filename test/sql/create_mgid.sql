@@ -1,0 +1,5 @@
+CREATE TABLE test_mgid1 (a mgid);
+INSERT INTO test_mgid1 VALUES ('507f191e810c19729de860ea');
+SELECT a FROM test_mgid1;
+INSERT INTO test_mgid1 VALUES ('507f191e810c19729d');
+INSERT INTO test_mgid1 VALUES ('507f191e810c19729de960ea0');

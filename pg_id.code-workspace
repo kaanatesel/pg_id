@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../pguint"
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "mgid.h": "c",
+            "pg_id.h": "c",
+            "hashfn.h": "c"
+        }
+    }
+}

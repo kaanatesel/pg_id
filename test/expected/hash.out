@@ -1,0 +1,32 @@
+SELECT mgid_hash('507f1f77bcf86cd799439011');
+  mgid_hash  
+-------------
+ -1713493780
+(1 row)
+
+SELECT mgid_hash('507f191e810c19729de860ea');
+  mgid_hash  
+-------------
+ -1348366109
+(1 row)
+
+SELECT mgid_hash('507f191e810c19729');
+ERROR:  invalid input syntax for type mgid: "507f191e810c19729"
+LINE 1: SELECT mgid_hash('507f191e810c19729');
+                         ^
+SELECT mgid_hash_extended('507f1f77bcf86cd799439011');
+ mgid_hash_extended 
+--------------------
+        -1713493780
+(1 row)
+
+SELECT mgid_hash_extended('507f191e810c19729de860ea');
+ mgid_hash_extended 
+--------------------
+        -1348366109
+(1 row)
+
+SELECT mgid_hash_extended('507f191e810c19729');
+ERROR:  invalid input syntax for type mgid: "507f191e810c19729"
+LINE 1: SELECT mgid_hash_extended('507f191e810c19729');
+                                  ^

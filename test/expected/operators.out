@@ -1,0 +1,288 @@
+SELECT '507f1f77bcf86cd799439011'::mgid = '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid = '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <> '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <> '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid < '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid < '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid < '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid > '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid > '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid > '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <= '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid <= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid >= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid >= '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid >= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid = '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid = '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <> '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <> '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid < '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid < '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid < '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid > '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid > '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid > '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <= '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid <= '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid <= '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid >= '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011'::mgid >= '507f1f77bcf86cd799439222';
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222'::mgid >= '507f1f77bcf86cd799439011';
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' = '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' = '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' <> '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' <> '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' < '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' < '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222' < '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' > '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' > '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222' > '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' <= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' <= '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222' <= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' >= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+
+SELECT '507f1f77bcf86cd799439011' >= '507f1f77bcf86cd799439222'::mgid;
+ ?column? 
+----------
+ f
+(1 row)
+
+SELECT '507f1f77bcf86cd799439222' >= '507f1f77bcf86cd799439011'::mgid;
+ ?column? 
+----------
+ t
+(1 row)
+

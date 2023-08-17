@@ -1,0 +1,4 @@
+comment = 'Emulation of Unique ID data types for different database systems'
+default_version = 0
+module_pathname = '$libdir/pg_id'
+relocatable = true

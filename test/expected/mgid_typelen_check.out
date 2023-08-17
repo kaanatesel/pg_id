@@ -1,0 +1,12 @@
+select typlen from pg_type where oid = 'mgid'::regtype::oid;
+ typlen 
+--------
+     12
+(1 row)
+
+select pg_column_size(mgid '00000000bcf86cd799439011');
+ pg_column_size 
+----------------
+             12
+(1 row)
+
